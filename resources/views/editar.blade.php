@@ -14,7 +14,7 @@
               <input type="text" name="titulo" id="titulo" class="form-control" value="{{$apunte->titulo}}" required>
               </div>
               <div class="md-form">
-                <label for="apunte">Explicación del apunte</label>
+                <label for="apunte">Desarrollo del apunte</label>
               <textarea name="explicacion" id="apunte" class="form-control md-textarea"   cols="30" rows="10">{{$apunte->explicacion}}</textarea>
               </div>
         
