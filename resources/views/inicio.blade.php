@@ -62,7 +62,7 @@
 </div>
 <small class="text-center">{{$apunteItem->created_at->diffForHumans()}}</small>
 <div class="row justify-content-left p-3">
-  <a href="{{route('apunte.edit', $apunteItem)}}"><i class="fa fa-edit mr-1"></i>Editar</a>
+  <a href="{{route('apunte.edit', $apunteItem)}}"><i class="fa fa-edit mr-1"></i>Modificar</a>
 <a  class="text-danger mx-3" href="" data-toggle="modal" data-target="#d{{$apunteItem->id}}"> <i class="fa fa-trash-alt mr-1"></i>Eliminar</a>
 </div>
 </div>
