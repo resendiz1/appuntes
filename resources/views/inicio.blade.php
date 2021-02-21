@@ -58,7 +58,7 @@
 <p>{{$apunteItem->explicacion}}</p>
 <img src="{{Storage::url($apunteItem->imagen)}}" class="img-fluid" alt="" data-toggle="modal" data-target="#i{{$apunteItem->id}}">
 <div class="card-footer d-flex justify-content-between mt-2">
-  <a href="{{route('apunte.show', $apunteItem)}}" class="btn btn-info btn-block">Visitar</a>
+  <a href="{{route('apunte.show', $apunteItem)}}" class="btn btn-info btn-block">Ver</a>
 </div>
 <small class="text-center">{{$apunteItem->created_at->diffForHumans()}}</small>
 <div class="row justify-content-left p-3">
