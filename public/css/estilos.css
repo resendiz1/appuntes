@@ -1,0 +1,16 @@
+body{
+    background: #5880C2;
+}
+
+
+.bor{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: green;
+}
+
+.bora{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: red;
+}
