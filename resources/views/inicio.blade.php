@@ -117,7 +117,7 @@
 
 @empty
 
-<li>No hay nada aqui</li>
+<li class="text-white font-weight-bold">No hay nada aqui</li>
     
 @endforelse
     
